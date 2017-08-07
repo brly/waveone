@@ -1,6 +1,7 @@
 # waveone minimal imp
 
-[SIGNICO](http://signico.hi-king.me/) vol4 で解説された「ニューラルネットワークで画像圧縮」の記事での実装です.
+[SIGNICO](http://signico.hi-king.me/) vol4 で解説された「ニューラルネットワークで画像圧縮」の記事での [waveone2017](https://arxiv.org/abs/1705.05823)
+の簡易的な実装です.
 
 動作させるためには別途データセットが必要となります.
 そのまま動かすのであれば util.py の get_training_image を書き換えて入力となる `(N,128,128,3)` 次元の numpy.array を返すようにしてください.
