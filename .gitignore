@@ -1,0 +1,6 @@
+*.bin
+*.png
+*.jpg
+*.out
+history
+__pycache__
